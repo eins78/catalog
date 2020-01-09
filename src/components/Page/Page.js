@@ -11,7 +11,7 @@ const pageStyle = {
   margin: `0 20px 0 20px`,
   maxWidth: "64em",
   display: "flex",
-  flexFlow: "row wrap",
+//  flexFlow: "row wrap", // NOTE: this causes Problems with "plain HTML" page content, lets check if removing it breaks anything
   padding: `48px 0`,
   "@media (min-width: 640px)": {
     margin: `0 10px 0 20px`
